@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            padding: 0%;
+            margin: 0%;
+            box-sizing: border-box;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #image{
+            width: 20%;
+            border: 1px solid black;
+            /* overflow: hidden; */
+        }
+        #image img{
+            width: 100%;
+            transition: all 2s 0s linear;
+        }
+        img:hover{
+            /* transform: translate(200px,-200px); */
+            /* transform: scale(0); */
+            /* transform: rotate(180deg); */
+            /* transform: skew(180deg); */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="image">
+            <img src="plane2.jpeg" alt="">
+        </div>
+    </div>
+</body>
+</html>
